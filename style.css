@@ -13,36 +13,46 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
-
-
-.iphone-feature {
-    width: 2600px;
-    background-color: rgb(159, 104, 141);
+/*****************************************************/
+.features {
     margin: auto;
+    width: 1600px;
+    height: 300px;
+    background-color: rgb(95, 211, 219);
 }
-.main-container {
-    max-width: 1600px;/*МАКСИМАЛЬНА ШИРИНА КОНТЕЙНЕРА*/
-    height: 100%;/*КОНТЕЙНЕР ЙДЕ НА ВСЮ ВИСОТУ НАСКРІЗЬ*/
-    margin: 0 auto;/*вирівнювання контейнера по горизонталі*/
-    text-align: center;/*внутрінність контейнера центрується*/
-    background-color: rgb(164, 111, 111);
+/*****************************************************/
+.iphone-feature {
 }
+
 .iphone-feature-container {
+    width: 1600px; 
+    height: 100%; /*КОНТЕЙНЕР ЙДЕ НА ВСЮ ВИСОТУ НАСКРІЗЬ*/
+    margin: auto;
+    text-align: center; /*внутрінність контейнера центрується*/
+    
     display: flex;
     flex-direction: row;
     align-items: center;
+    overflow: hidden;
+    padding-top: 86px;
+   
 }
 .iphone-feature-big-img {
     width: 905px;
     height: 772px;
+    margin-left: -130px;
+    margin-right: 50px;
+
 }
 .iphone-feature-description {
     display: flex;
     flex-direction: column;
     text-align: left;
+    justify-content: space-between;
+    margin-left: 52px;
+    margin-bottom: 233px;
 }
 .iphone-feature-text {
-
 }
 .iphone-feature-text__title {
     max-width: 240px;
@@ -51,6 +61,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     font-size: 42px;
     font-weight: 400px;
     line-height: 52px;
+    margin-bottom: 73px;
 }
 .iphone-feature-text__paragraph {
     width: 469px;
@@ -59,16 +70,52 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     font-size: 20px;
     font-weight: 400px;
     line-height: 28px;
+    margin-bottom: 40px;
 }
 .iphone-feature-buttons {
+    margin-top: 35px;
+    display: flex;
 }
 .iphone-feature-button1 {
+    display: flex;
+    align-items: center;
+    padding: 14px 19px 13px 26px;
+    border-radius: 21px;
+    background-color: #267df4;
+    margin-right: 20px;
 }
+
 .iphone-feature-button1__text {
-}
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-right: 50px;
+    
+
+} 
 .iphone-feature-button1__icon {
+    width: 13px;
+    height: 12px;
+    color: rgb(255, 255, 255);
 }
 .iphone-feature-button2 {
+    padding: 14px 31px 15px 32px;
+    border-radius: 21px;
+    border: 1px solid rgba(38, 39, 45, 0.1);
+    background-color: rgb(255, 255, 255);
 }
 .iphone-feature-button2__text {
+    color: rgb(38, 39, 45);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
 }
+/*****************************************************/
+.map-feature {
+    margin: auto;
+    width: 1600px;
+    height: 300px;
+    background-color: rgb(95, 211, 219);
+}
+/*****************************************************/
