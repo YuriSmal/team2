@@ -4,12 +4,38 @@
 }
 .map-feature{
 	display: flex;
+	padding-left: 7%; 
+	box-sizing: border-box;
 }
 .map-feature .map-feature-left-block{
-	width: 40%;
+	width: 35%;
 }
 .map-feature .map-feature-right-block{
-	width: 60%;
+	width: 65%;
+}
+.map-feature .map-feature-left-block h1{
+	font-family: "Varela Round", sans-serif;
+	color: #26272d;
+	font-size: 42px;
+}
+.map-feature .map-feature-left-block .map-feature-text-block{
+	margin: 50px 0; 
+}
+.map-feature .map-feature-left-block .map-feature-text-block p{
+	font-family: "Lato", sans-serif;
+	color: #8c8f94;
+	font-size: 20px;
+}
+.map-feature-text-block p:first-child{
+	margin-bottom: 30px;
+}
+.map-feature .map-feature-left-block h2{
+	font-size: 12px;
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #26272d;
+	margin-bottom: 30px;
 }
 .map-feature .map-feature-right-block img{
 	width: 100%;
