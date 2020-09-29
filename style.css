@@ -1,0 +1,16 @@
+.map-feature *{
+	margin: 0;
+	padding: 0;
+}
+.map-feature{
+	display: flex;
+}
+.map-feature .map-feature-left-block{
+	width: 40%;
+}
+.map-feature .map-feature-right-block{
+	width: 60%;
+}
+.map-feature .map-feature-right-block img{
+	width: 100%;
+}
