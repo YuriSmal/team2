@@ -13,31 +13,40 @@
     
     <header>
         <div class="container">
-            <div class="header-menu-wrapper">
-                <ul class="header-menu-container">
-                    <li><a href="">Tour</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Pricing</a></li>
-                </ul>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <div class="header-menu-wrapper menu__box">
+                    <ul class="header-menu-container">
+                        <li><a class="menu__item"  href="">Tour</a></li>
+                        <li><a class="menu__item"  href="">Features</a></li>
+                        <li><a class="menu__item"  href="">Pricing</a></li>
+                    </ul>
 
-                <div class="header-menu-container">
-                    <a href=""><h1><strong>New</strong>providence</h1></a>
+                    <div class="header-menu-container menu__box">
+                        <a href=""><h1><strong>New</strong>providence</h1></a>
+                    </div>
+
+                    <ul class="header-menu-container">
+                        <li><a class="menu__item"  href="">Help</a></li>
+                        <li><a class="menu__item"  href="">Contacts</a></li>
+                        <li class="header-getapp-button-wrapper">
+                            <a  class="header-getapp-button menu__item" href="">
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="17px" height="21px">
+                                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                d="M14.339,11.570 C14.316,9.051 16.382,7.826 16.476,7.769 C15.306,6.048 13.493,5.812 12.856,5.794 C11.333,5.632 9.856,6.713 9.080,6.713 C8.289,6.713 7.094,5.809 5.806,5.836 C4.150,5.862 2.600,6.830 1.749,8.333 C-0.005,11.399 1.303,15.904 2.984,18.382 C3.825,19.596 4.808,20.951 6.094,20.903 C7.352,20.851 7.822,20.094 9.340,20.094 C10.844,20.094 11.286,20.903 12.597,20.873 C13.947,20.851 14.798,19.654 15.609,18.430 C16.581,17.039 16.971,15.669 16.986,15.598 C16.955,15.587 14.364,14.589 14.339,11.570 ZM11.861,4.163 C12.538,3.309 13.001,2.147 12.872,0.969 C11.893,1.012 10.668,1.652 9.963,2.487 C9.338,3.223 8.781,4.430 8.925,5.565 C10.025,5.648 11.155,5.004 11.861,4.163 Z"/>
+                                </svg>
+                                Get App
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-
-                <ul class="header-menu-container">
-                    <li><a href="">Help</a></li>
-                    <li><a href="">Contacts</a></li>
-                    <li class="header-getapp-button-wrapper"><a class="header-getapp-button" href="">
-                        <svg 
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        width="17px" height="21px">
-                       <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
-                        d="M14.339,11.570 C14.316,9.051 16.382,7.826 16.476,7.769 C15.306,6.048 13.493,5.812 12.856,5.794 C11.333,5.632 9.856,6.713 9.080,6.713 C8.289,6.713 7.094,5.809 5.806,5.836 C4.150,5.862 2.600,6.830 1.749,8.333 C-0.005,11.399 1.303,15.904 2.984,18.382 C3.825,19.596 4.808,20.951 6.094,20.903 C7.352,20.851 7.822,20.094 9.340,20.094 C10.844,20.094 11.286,20.903 12.597,20.873 C13.947,20.851 14.798,19.654 15.609,18.430 C16.581,17.039 16.971,15.669 16.986,15.598 C16.955,15.587 14.364,14.589 14.339,11.570 ZM11.861,4.163 C12.538,3.309 13.001,2.147 12.872,0.969 C11.893,1.012 10.668,1.652 9.963,2.487 C9.338,3.223 8.781,4.430 8.925,5.565 C10.025,5.648 11.155,5.004 11.861,4.163 Z"/>
-                       </svg>Get App</a></li>
-                </ul>
             </div>
-
             <div class="header-info-wrapper">
                 <p class="header-heading">What happens tomorrow?</p>
                 <p class="header-heading-text">
@@ -72,7 +81,7 @@
                         </p>
                     </div>
                     <div class="features-col-6-12">
-                        <div class="features-img"><img src="img/feature/clock-icon.png" alt=""></div>
+                        <div class="features-img features-img-clock"><img src="img/feature/clock-icon.png" alt=""></div>
                         <h2 class="features-heading">Adopt without any obstacles</h2>
                         <p class="features-text">
                             This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.
