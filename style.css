@@ -6,6 +6,7 @@
 	display: flex;
 	padding-left: 7%; 
 	box-sizing: border-box;
+	background: #ffffff;
 }
 .map-feature .map-feature-left-block{
 	width: 35%;
