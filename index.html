@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Providence</title>
+    <link rel="stylesheet" href="js\splide-2.4.12\dist\js\splide.min.js">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
 </head>
@@ -66,6 +68,45 @@
 
         <section class="customers">
 
+            <div class="customers-container">
+
+                
+                <div class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"> <img src="/img/customers/02.png"> </li>
+                            <li class="splide__slide"> <img src="/img/customers/01.png"> </li>
+                            <li class="splide__slide"> <img src="/img/customers/03.png"> </li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <div class="customer-description">
+                    <h3 class="customer-description__title">New Providence is the great UI kit </h3>
+                    <p class="customer-description__paragraph">“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
+                    <ul class="customer-description-stars">
+                        <li>
+                            <a  href="" class="customer-description-stars__item"><img src="/img/customers/customer-description-stars__item.svg" alt="" class=""></a>
+                        </li>
+                        <li>
+                            <a  href="" class="customer-description-stars__item"><img src="/img/customers/customer-description-stars__item.svg" alt="" class=""></a>
+                        </li>
+                        <li>
+                            <a  href="" class="customer-description-stars__item"><img src="/img/customers/customer-description-stars__item.svg" alt="" class=""></a>
+                        </li>
+                        <li>
+                            <a  href="" class="customer-description-stars__item"><img src="/img/customers/customer-description-stars__item.svg" alt="" class=""></a>
+                        </li>
+                        <li>
+                            <a  href="" class="customer-description-stars__item"><img src="/img/customers/customer-description-stars__item.svg" alt="" class=""></a>
+                        </li>
+                    </ul>
+                    <div class="customer-description-name">Cameron Dowman</div>
+                </div>
+
+            </div>
+
         </section>
 
         <section class="plan"></section>
@@ -73,5 +114,12 @@
     </main>
 
     <footer></footer>
+
+
+    
+    <script src="js\splide-2.4.12\dist\js\splide.min.js"></script>
+    <script>
+        new Splide( '.splide' ).mount();
+    </script>
 </body>
 </html>
