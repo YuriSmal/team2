@@ -48,7 +48,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     margin-left: 52px;
     margin-bottom: 191px;
     margin-top: 35px;
-    background-color: rgb(212, 77, 77);
 }
 .iphone-feature-text {}
 .iphone-feature-text__title {
@@ -79,7 +78,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding-right: 19px;
     padding-left: 26px;
     border-radius: 100px;
-    background-color: #267df4;
+    background-color: rgb(38, 125, 244);
     margin-right: 20px;
 }
 
@@ -102,7 +101,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     border-radius: 21px;
     border: 1px solid #26272d1a;
     border-radius: 100px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 .iphone-feature-button2__text {
     color: rgb(38, 39, 45);
