@@ -1,0 +1,194 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*****************************************************/
+.features {margin: auto;
+    width: 1600px;
+    height: 100px;
+    background-color: rgba(95, 211, 219, 0.479);}
+/*****************************************************/
+.iphone-feature {}
+
+.iphone-feature-container {
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 86px;
+    padding-bottom: 42px;
+}
+.iphone-feature-big-img {
+    margin-left: -130px;
+    margin-right: 50px;
+
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.iphone-feature-description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 52px;
+    margin-bottom: 191px;
+    margin-top: 35px;
+}
+.iphone-feature-text {}
+.iphone-feature-text__title {
+    max-width: 240px;
+    color: rgb(38, 39, 45);
+    font-family: "Varela Round", sans-serif;
+    font-size: 42px;
+    font-weight: 400px;
+    line-height: 50px;
+    margin-bottom: 73px;
+}
+.iphone-feature-text__paragraph {
+    max-width: 470px;
+    color: rgb(140, 143, 148);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.iphone-feature-buttons {
+    margin-top: 33px;
+    display: flex;
+}
+.iphone-feature-button1 {
+    display: flex;
+    align-items: center;
+    padding-right: 19px;
+    padding-left: 26px;
+    border-radius: 100px;
+    background-color: rgb(38, 125, 244);
+    margin-right: 20px;
+}
+
+.iphone-feature-button1__text {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-right: 46px;
+} 
+.iphone-feature-button1__icon {
+    width: 13px;
+    height: 12px;
+    color: rgb(255, 255, 255);
+    margin-right: 3px;
+    margin-top: 4px;
+}
+.iphone-feature-button2 {
+    padding: 14px 31px 15px 32px;
+    border-radius: 21px;
+    border: 1px solid #26272d1a;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.iphone-feature-button2__text {
+    color: rgb(38, 39, 45);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+/*****************************************************/
+.map-feature {margin: auto;
+    width: 1600px;
+    height: 100px;
+    background-color: rgba(95, 211, 219, 0.479);}
+/*****************************************************/
+
+.customers {
+}
+.customers-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    background-color: rgba(229, 122, 122, 0.423);
+}
+.customers-slider {
+    color: rgb(140, 143, 148);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+.splide .splide__track .splide__list{
+    display: flex;
+}
+.customer-description {
+    max-width: 554px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.customer-description__title {
+    color: rgb(38, 39, 45);
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+    margin-top: 45px;
+    margin-bottom: 48px;
+}
+.customer-description__paragraph {
+    color: rgb(140, 143, 148);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.customer-description-stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 68px;
+
+}
+.customer-description-stars__item {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.customer-description-name{
+    color: rgb(38, 39, 45);
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 800px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+/*****************************************************/
+.plan {margin: auto;
+    width: 1600px;
+    height: 100px;
+    background-color: rgba(95, 211, 219, 0.479);}
+/*****************************************************/
+
