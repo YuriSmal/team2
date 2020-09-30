@@ -4,11 +4,11 @@
 }
 .map-feature{
 	display: flex;
-	padding-left: 7%; 
 	box-sizing: border-box;
 	background: #ffffff;
 }
 .map-feature .map-feature-left-block{
+	padding-left: 7%; 
 	width: 35%;
 }
 .map-feature .map-feature-right-block{
@@ -40,4 +40,23 @@
 }
 .map-feature .map-feature-right-block img{
 	width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and ( max-width: 920px ) {
+	.map-feature{
+		display: block;
+	}
+	.map-feature .map-feature-left-block{
+		width: 88%;
+		margin-bottom: 20px;
+	}
+	.map-feature .map-feature-right-block{
+		width: 100%;
+	}
 }
