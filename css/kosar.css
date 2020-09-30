@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #F5F5F8;
+    margin: 0;
+    padding: 0;
+}
+/* iphone-screens-5 */
+.iphone-screens {
+    max-height: 1200px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.iphone-screens-text-container{
+    text-align: center;
+}
+
+.iphone-screens-title {
+    margin-bottom: 45px; 
+}
+
+.iphone-screens-line {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #267DF4;
+    border-right-color:#267DF4;
+    border-bottom-color: #267DF4;
+    border-left-color: #267DF4;
+    background-color: #267DF4;
+    width: 50px;
+    border-bottom-width: 0px;
+    margin-bottom: 45px;
+}
+
+.iphone-screens-text {
+    margin-bottom: 45px;
+    color: #8C8F94;
+}
+
+.iphone-screens-imgs {
+    max-width: 100%;
+    max-height: 755px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.iphone-screens-main-img {
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%; 
+    margin-right: 27px;
+    box-shadow: 8px 16px 20px 0px #80808059;
+    border-radius: 55px;
+    background-color: #80808059;
+}
+
+.iphone-screens-img {
+    margin-right: 27px;
+    max-width: 100%;
+    max-height: 100%; 
+    box-shadow: 8px 16px 20px 0px #80808059;
+}
+
+.iphone-screens-img:last-child {
+    padding-right: 0;
+    margin-right: -20px;
+}
+
+.iphone-screens-img:first-child {
+    margin-left: -40px;
+}
+
+
+/* subscribe-9 */
+
+.subscribe {
+    max-height: 350px;
+    max-width: 100%;
+}
+
+.subscribe-container {
+    text-align: center;
+}
+
+.subscribe-title {
+    font-size: 42px;
+    margin-bottom: 42px;
+}
+
+.subscribe-form-container {
+    margin: auto;
+    max-width: 500px;
+    text-decoration: none;
+    border: 1px solid #CBCBCE;
+    border-radius: 40px;
+    margin-bottom: 29px;
+}
+
+.subscribe-submit {
+    background-color: #6FC754;
+    border: 2px solid #F5F5F8;
+    color: white;
+    padding: 15px 33px;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-left: 162px;
+}
+
+
+.subscribe-email {
+    background-color: #F5F5F8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    margin-left: 30px;
+    outline:none;
+}
+
+.subscribe-container-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #8C8F94;
+    margin-bottom: 86px;
+}
+
+
+/* footer */
+
+.footer {
+    max-height: 510px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.footer-containetr {
+    margin-top: 90px;
+    max-width: 100%;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-text {
+    max-width: 245px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #8C8F94;
+    margin-bottom: 32px;
+}
+
+.footer-app-store {
+    margin-bottom: 40px;
+}
+
+.social-logos {
+    
+}
+
+.social-logo {
+    margin-right: 25px;
+}
+
+.footer-title {
+    margin: 0;
+}
+
+.footer-about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.learn-more {
+    max-height: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+.about-us {
+    max-height: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 65px;
+}
+
+.support {
+    max-height: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #8C8F94;
+}
+
+.footer-craft-work {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.craft-work-logo {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-craft-work-text {
+    margin-left: auto;
+    margin-right: auto;
+}
