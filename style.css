@@ -16,13 +16,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*****************************************************/
 .features {margin: auto;
     width: 1600px;
-    height: 300px;
+    height: 100px;
     background-color: rgba(95, 211, 219, 0.479);}
 /*****************************************************/
 .iphone-feature {}
 
 .iphone-feature-container {
-    width: 1600px;
+    max-width: 1600px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -33,9 +33,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding-bottom: 42px;
 }
 .iphone-feature-big-img {
-    max-width: 905px;
     margin-left: -130px;
     margin-right: 50px;
+
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 .iphone-feature-description {
     display: flex;
@@ -45,6 +48,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     margin-left: 52px;
     margin-bottom: 191px;
     margin-top: 35px;
+    background-color: rgb(212, 77, 77);
 }
 .iphone-feature-text {}
 .iphone-feature-text__title {
@@ -110,6 +114,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*****************************************************/
 .map-feature {margin: auto;
     width: 1600px;
-    height: 300px;
+    height: 100px;
     background-color: rgba(95, 211, 219, 0.479);}
 /*****************************************************/
