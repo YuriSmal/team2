@@ -334,7 +334,27 @@
 
 
 
-
+@media screen and ( max-width: 1050px ) {
+	.plan-sub-block{
+		display: block;
+	}
+	.plan .plan-left{
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.plan .plan-right{
+		width: 100%;
+	}
+	.plan .plan-right > *{
+		width: 42%;
+	}
+	.plan-right-block{
+		padding: 0;
+	}
+	.plan-right-block ul{
+		padding-bottom: 100px;
+	}
+}
 @media screen and ( max-width: 920px ) {
 	.map-feature{
 		display: block;
@@ -345,6 +365,16 @@
 	}
 	.map-feature .map-feature-right-block{
 		width: 100%;
+	}
+}
+@media screen and ( max-width: 700px ) {
+	.plan .plan-right > *{
+		width: 80%;
+		display: none;
+		transition: .5s;
+	}
+	.plan .plan-right .plan-right-block.plan-right-block-active{
+		display: flex;
 	}
 }
 @media screen and ( max-width: 550px ) {
