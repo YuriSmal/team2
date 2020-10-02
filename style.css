@@ -249,8 +249,9 @@
   align-items: center;
   text-align: center;
   position: relative;
-  padding: 0 20px;
+  padding: 0 30px;
   border-radius: 20px;
+  transition: .5s;
 }
 .plan-right-block h1{
 	font-size: 32px;
