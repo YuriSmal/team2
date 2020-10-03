@@ -79,6 +79,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     background-color: rgb(38, 125, 244);
     margin-right: 20px;
 }
+.iphone-feature-button1::hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
 .iphone-feature-button1__text {
     color: rgb(255, 255, 255);
     font-family: "Lato", sans-serif;
