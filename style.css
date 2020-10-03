@@ -390,6 +390,12 @@
 	.ready-to-buy .ready-to-buy-form .ready-to-buy-form-btn{
     width: 144px;
 	}
+	.plan .plan-left{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+	}
 }
 @media screen and ( max-width: 390px ) {
 	.ready-to-buy .ready-to-buy-form{
