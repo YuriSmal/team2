@@ -1,3 +1,5 @@
 $(document).ready(function(){
-    $('.sliderbo').slick();
+    $('.slider').slick({
+        
+    });
 });

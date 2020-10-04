@@ -134,15 +134,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 /***********************************************************************************/
-.sliderbo{
+/*
     min-width: 0;
-}
-.customers-container {
-    min-width: 0;
-}
-.customers {
-    min-width: 0;
-}
+*/
 /* Слайдер */
 .slick-slider{}
 /* Слайдер запущен */
@@ -182,6 +176,37 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .slick-dots li.slick-active{}
 /* Элемент точки */
 .slick-dots li button{}
+
+
+.slider {
+    position: relative;
+    max-width: 1600px;
+    margin: auto;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    z-index: 10;
+    font-size: 0;
+    width: 23px;
+    height: 42px;
+}
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    background: url('../../img/customers/Arrow_L.svg') 0 0 / 100% no-repeat;
+    margin-left: 236px;
+
+}
+.slider .slick-arrow.slick-next {
+    right: 0;
+    background: url('../../img/customers/Arrow_R.svg') 0 0 / 100% no-repeat;
+    margin-right: 236px;
+}
+
 /***********************************************************************************/
 
 .customer-description {
