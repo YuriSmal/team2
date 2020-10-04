@@ -173,7 +173,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .slick-dots{}
 .slick-dots li{}
 /* Активная точка */
-.slick-dots li.slick-active{}
+.slick-dots li.slick-active{
+
+}
 /* Элемент точки */
 .slick-dots li button{}
 
@@ -184,6 +186,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     margin: auto;
     padding-left: 500px;
     padding-right: 500px;
+    text-align: center;
 }
 
 .slider .slick-arrow {
@@ -206,7 +209,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     background: url('../../img/customers/Arrow_R.svg') 0 0 / 100% no-repeat;
     margin-right: 236px;
 }
-
+.slider__item img{
+    max-width: 90px;
+}
+.slick-center img{
+    max-width: 130px;
+    height: 130px;
+}
 /***********************************************************************************/
 
 .customer-description {
