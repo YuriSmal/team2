@@ -78,11 +78,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     border-radius: 100px;
     background-color: rgb(38, 125, 244);
     margin-right: 20px;
+    transition: .5s;
 }
-.iphone-feature-button1::hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    
+.iphone-feature-button1:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .iphone-feature-button1__text {
     color: rgb(255, 255, 255);
@@ -91,6 +91,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     font-weight: 400px;
     margin-right: 46px;
 } 
+
 .iphone-feature-button1__icon {
     width: 13px;
     height: 12px;
@@ -104,6 +105,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     border: 1px solid #26272d1a;
     border-radius: 100px;
     background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+.iphone-feature-button2:hover{
+    background-color: rgb(38, 125, 244);
+    box-shadow: 0 0 10px rgba(24, 101, 201, 0.788);
+    border: 1px solid rgb(38, 125, 244);
 }
 .iphone-feature-button2__text {
     color: rgb(38, 39, 45);
@@ -173,6 +180,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     margin-right: 4px;
     margin-left: 4px;
 }
+.customer-description-stars__item:hover {
+    
+}
+
 .customer-description-name{
     color: rgb(38, 39, 45);
     font-family: "Lato", sans-serif;
