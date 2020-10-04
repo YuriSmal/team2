@@ -87,6 +87,9 @@ body {
 
 .subscribe-container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .subscribe-title {
@@ -111,6 +114,7 @@ body {
     text-decoration: none;
     border-radius: 40px;
     margin-left: 162px;
+    cursor: pointer;
 }
 
 
@@ -135,8 +139,9 @@ body {
 
 .footer {
     max-height: 510px;
-    max-width: 100%;
+    max-width: 1600px;
     overflow-x: hidden;
+    margin: auto;
 }
 
 .footer-containetr {
@@ -163,10 +168,11 @@ body {
 
 .footer-app-store {
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .social-logos {
-    
+    cursor: pointer;
 }
 
 .social-logo {
@@ -178,8 +184,8 @@ body {
 }
 
 .footer-about-us {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    margin-right: auto;
 }
 
 .learn-more {
@@ -208,6 +214,7 @@ body {
 .footer-link {
     text-decoration: none;
     color: #8C8F94;
+    cursor: pointer;
 }
 
 .footer-craft-work {
@@ -226,4 +233,60 @@ body {
 .footer-craft-work-text {
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 780px) {
+    .footer {
+        overflow: hidden;
+    }
+    .footer-containetr {
+        flex-direction: column;
+    }
+    .footer-about-us {
+        /* font-size: 16px; */
+        visibility: hidden;
+    }
+    .learn-more {
+        margin-right: 10px;
+    }
+    .about-us {
+        margin-right: 10px;
+    }
+    .footer-social {
+        text-align: center;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+    .footer-craft-work {
+        visibility: hidden;
+    }
+}
+@media (max-width: 510px) {
+    .subscribe-email {
+        margin-left: 23px;
+    } 
+    .subscribe-submit {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .iphone-screens-main-img {
+        margin-left: 16px;
+    }
+    .footer-containetr {
+        flex-direction: column;
+    }
+    .footer-about-us {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .footer-social {
+        text-align: center;
+        max-width: 300px;
+    }
+    .social-logo {
+        margin-bottom: 20px;
+    }
 }
