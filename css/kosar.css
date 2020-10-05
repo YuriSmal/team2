@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+
 body {
     font-family: 'Varela Round', sans-serif;
     background-color: #F5F5F8;
@@ -12,6 +13,9 @@ body {
     max-height: 1200px;
     max-width: 100%;
     overflow-x: hidden;
+}
+.slider-item {
+    margin-right: 10px;
 }
 
 .iphone-screens-text-container{
@@ -49,6 +53,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    
 }
 
 .iphone-screens-main-img {
@@ -56,29 +61,16 @@ body {
     max-width: 100%;
     max-height: 100%; 
     margin-right: 27px;
-    box-shadow: 8px 16px 20px 0px #80808059;
-    border-radius: 55px;
-    background-color: #80808059;
+
 }
 
 .iphone-screens-img {
     margin-right: 27px;
     max-width: 100%;
     max-height: 100%; 
-    box-shadow: 8px 16px 20px 0px #80808059;
+    box-shadow: -1px 1px 20px 3px #80808059;
 }
 
-.iphone-screens-img:last-child {
-    padding-right: 0;
-    margin-right: -20px;
-}
-
-.iphone-screens-img:first-child {
-    margin-left: -40px;
-}
-
-
-/* subscribe-9 */
 
 .subscribe {
     max-height: 350px;
@@ -182,7 +174,7 @@ body {
 .footer-title {
     margin: 0;
     cursor: pointer;
-    color: #2f2f30;
+    color: #26272D;
 }
 
 .footer-about-us {
@@ -260,6 +252,11 @@ body {
 }
 .craft-work-text {
     margin-right: 10px;
+    align-self: center;
+}
+
+.footer-title:hover {
+    border-bottom: #26272D 2px solid;
 }
 
 
@@ -299,11 +296,14 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    /* .craft-work-text {
-        margin-right: 10px;
-    } */
+    .craft-work-text{
+        align-self: center;
+    }
+    .subscribe-container-text {
+        margin-bottom: 0;
+    }
 }
-@media (max-width: 510px) {
+@media (max-width: 513px) {
     .subscribe-email {
         margin-left: 23px;
     } 
