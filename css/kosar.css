@@ -181,6 +181,8 @@ body {
 
 .footer-title {
     margin: 0;
+    cursor: pointer;
+    color: #2f2f30;
 }
 
 .footer-about-us {
@@ -215,6 +217,7 @@ body {
     text-decoration: none;
     color: #8C8F94;
     cursor: pointer;
+    padding: 5px;
 }
 
 .footer-craft-work {
@@ -235,22 +238,54 @@ body {
     margin-right: auto;
 }
 
-@media (max-width: 780px) {
+.support-link-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutus-link-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.learnmore-link-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-craft-work-box {
+    margin-left: auto;
+}
+.craft-work-text {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 790px) {
     .footer {
         overflow: hidden;
+        max-height: max-content;
     }
     .footer-containetr {
         flex-direction: column;
     }
     .footer-about-us {
-        /* font-size: 16px; */
-        visibility: hidden;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutus-link-box {
+        display: none;
     }
     .learn-more {
         margin-right: 10px;
+        margin-bottom: 20px;
     }
     .about-us {
         margin-right: 10px;
+        margin-bottom: 20px;
     }
     .footer-social {
         text-align: center;
@@ -258,8 +293,15 @@ body {
         margin-bottom: 10px;
     }
     .footer-craft-work {
-        visibility: hidden;
+       flex-direction: column;
     }
+    .footer-craft-work-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .craft-work-text {
+        margin-right: 10px;
+    } */
 }
 @media (max-width: 510px) {
     .subscribe-email {

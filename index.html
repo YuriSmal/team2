@@ -68,36 +68,50 @@
             </div>
             <div class="footer-about-us">
                 <div class="learn-more">
-                    <h3 class="footer-title">Learn More</h3>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">How it works?</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Meeting tools</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Live striming</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Contat method</a>
+                    <h3 class="footer-title" id="learnmore" onclick="showOne()">Learn More</h3>
+                    <div class="aboutus-link-box" id="box-1">
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">How it works?</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Meeting tools</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Live striming</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Contat method</a>
+                    </div>
                 </div>
                 <div class="about-us">
-                    <h3 class="footer-title">About Us</h3>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">About us</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Features</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Privacy police</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Terms & Conditions</a>
+                    <h3 class="footer-title" id="aboutus" onclick="showTwo()">About Us</h3>
+                    <div class="aboutus-link-box" id="box-2"  >
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">About us</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Features</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Privacy police</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Terms & Conditions</a>
+                    </div>
                 </div>
                 <div class="support">
-                    <h3 class="footer-title">Support</h3>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">F.A.Q.</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Contact us</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Live chat</a>
-                    <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Phone call</a>
+                    <h3 class="footer-title" id="support"  onclick="showThree()">Support</h3>
+                    <div class="aboutus-link-box" id="box-3" >
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">F.A.Q.</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Contact us</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Live chat</a>
+                        <a href="https://www.google.com.ua/" target="_blank" class="footer-link">Phone call</a>
+                    </div>
                 </div>
 
             </div>
         </div>
         <div class="footer-craft-work">
-            <p class="footer-craft-work-text">For more freebies visit: <a href="http://getcraftwork.com">http://getcraftwork.com</a></p>
+            <div class="footer-craft-work-box">
+                <p class="footer-craft-work-text">For more freebies visit: <a href="http://getcraftwork.com">http://getcraftwork.com</a></p>
+            </div>
+            
             <div class="craft-work-logo">
                 <p class="craft-work-text">Made with Love by</p>
                 <a href="http://getcraftwork.com"><img src="./img/footer/Logo@1X.png" alt=""></a>
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="./js/slick.min.js"></script>
+
+    <script src="./js/kosar.js"></script>
 </body>
 </html>
