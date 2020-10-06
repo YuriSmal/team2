@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 .iphone-feature-button1:hover {
     background-color: rgb(0, 0, 0);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 .iphone-feature-button1__text {
     color: rgb(255, 255, 255);
@@ -109,7 +109,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 .iphone-feature-button2:hover{
     background-color: rgb(38, 125, 244);
-    box-shadow: 0 0 10px rgba(24, 101, 201, 0.788);
+    box-shadow: 0 5px 10px rgba(24, 101, 201, 0.788);
     border: 1px solid rgb(38, 125, 244);
 }
 .iphone-feature-button2__text {
@@ -122,16 +122,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 /*********************************** customers - BEGIN ***********************************/
 .customers {}
-.customers-container {
-    max-width: 1600px;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 /***********************************************************************************/
 /*    min-width: 0;*/
@@ -139,15 +129,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 
 /* Слайдер */
-.slick-slider{
+.slider{
     position: relative;
     display: flex;
     max-width: 1600px;
-    margin: auto;
+    margin: 0 auto;
+    text-align: center;
     padding-left: 450px;
     padding-right: 450px;
-    text-align: center;
+    
     min-width: 0;
+
+    background-color: rgb(162, 72, 72);
 }
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
@@ -219,13 +212,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     max-width: 130px;
     max-height: 130px;
 }
-
-@media screen and (max-width: 660px) {
-
-    .slick-slider {
-        background-color: rgb(198, 202, 81);
-    }
-
+@media screen and (max-width: 940px) {
     .slick-arrow.slick-prev {
         margin-left: 30px;
     }
@@ -233,8 +220,40 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         margin-right: 30px;
     }
 }
-/***********************************************************************************/
+@media screen and (max-width: 660px) {
 
+    .slick-slider {
+        background-color: rgb(198, 202, 81);
+        max-width: 350px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .draggable {
+        background-color: rgb(8, 5, 5);
+    }
+    .slick-arrow.slick-prev {
+        margin-left: 0px;
+    }
+    .slick-arrow.slick-next {
+        margin-right: 0px;
+    }
+    .slick-list.draggable {
+        max-width: 350px;
+
+    }
+    
+}
+/***********************************************************************************/
+.customers-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .customer-description {
     max-width: 554px;
     text-align: center;
@@ -419,7 +438,44 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding-right: 200px;
     }
 }
-
+@media screen and (max-width: 660px) {
+    .slick-slider{
+        max-width: 660px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .slick-list.draggable {
+        padding: 0 160px;
+    }
+}
+@media screen and (max-width: 525px) {
+    .slick-slider{
+        max-width: 525px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .slick-slider{
+        max-width: 525px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width: 385px) {
+    .slick-slider{
+        max-width: 525px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media screen and (max-width: 345px) {
+    .slick-slider{
+        max-width: 525px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
 
 
 @media screen and (max-width: 472px) {
