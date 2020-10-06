@@ -1,0 +1,710 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*********************************************************/
+/***************************** iphone-feature - BEGIN **************************************/
+.iphone-feature {}
+.iphone-feature-container {
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 86px;
+    padding-bottom: 42px;
+}
+.iphone-feature-img{}
+.iphone-feature-big-img {
+    margin-left: -130px;
+    margin-right: 50px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.iphone-feature-description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 52px;
+    margin-bottom: 191px;
+    margin-top: 35px;
+    padding-right: 5px;
+}
+.iphone-feature-text {}
+.iphone-feature-text__title {
+    max-width: 240px;
+    color: rgb(38, 39, 45);
+    font-family: "Varela Round", sans-serif;
+    font-size: 42px;
+    font-weight: 400px;
+    line-height: 50px;
+    margin-bottom: 73px;
+}
+.iphone-feature-text__paragraph {
+    max-width: 470px;
+    color: rgb(140, 143, 148);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-bottom: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.iphone-feature-buttons {
+    margin-top: 33px;
+    display: flex;
+}
+.iphone-feature-button1 {
+    display: flex;
+    align-items: center;
+    padding-right: 19px;
+    padding-left: 26px;
+    border-radius: 100px;
+    background-color: rgb(38, 125, 244);
+    margin-right: 20px;
+    transition: .5s;
+}
+.iphone-feature-button1:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.iphone-feature-button1__text {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-right: 46px;
+} 
+
+.iphone-feature-button1__icon {
+    width: 13px;
+    height: 12px;
+    color: rgb(255, 255, 255);
+    margin-right: 3px;
+    margin-top: 4px;
+}
+.iphone-feature-button2 {
+    padding: 14px 60px 15px 60px;
+    border-radius: 21px;
+    border: 1px solid #26272d1a;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+.iphone-feature-button2:hover{
+    background-color: rgb(38, 125, 244);
+    box-shadow: 0 5px 10px rgba(24, 101, 201, 0.788);
+    border: 1px solid rgb(38, 125, 244);
+}
+.iphone-feature-button2__text {
+    color: rgb(38, 39, 45);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+/********************************** iphone-feature - END *********************************/
+
+/*********************************** customers - BEGIN ***********************************/
+.customers {}
+
+/***********************************************************************************/
+/*    min-width: 0;*/
+.slider {
+    /* cursor: pointer; */
+    cursor: grabbing;
+}
+
+
+/* Слайдер */
+.slider{
+    position: relative;
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 450px;
+    padding-right: 450px;
+    
+    min-width: 0;
+
+    /* background-color: rgb(162, 72, 72); */
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    align-items: center;
+}
+/* Слайд */
+.slick-slide{
+    opacity: 0;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{
+    opacity: 0.15;
+}
+/* Слайд основной */
+.slick-slide.slick-current{
+    opacity: 1;
+}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    z-index: 10;
+    font-size: 0;
+    width: 23px;
+    height: 42px;
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+    left: 0;
+    background: url('../img/customers/Arrow_L.svg') 0 0 / 100% no-repeat;
+    margin-left: 220px;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    right: 0;
+    background: url('../img/customers/Arrow_R.svg') 0 0 / 100% no-repeat;
+    margin-right: 220px;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+
+.slider__item {}
+.slider__item img{
+    max-width: 90px;
+    padding: 0;
+}
+.slick-center img{
+    max-width: 130px;
+    max-height: 130px;
+}
+@media screen and (max-width: 940px) {
+    .slick-arrow.slick-prev {
+        margin-left: 30px;
+    }
+    .slick-arrow.slick-next {
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 660px) {
+
+    .slick-slider {
+        /* background-color: rgb(198, 202, 81); */
+        max-width: 350px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .draggable {
+        /* background-color: rgb(8, 5, 5); */
+    }
+    .slick-arrow.slick-prev {
+        margin-left: 0px;
+    }
+    .slick-arrow.slick-next {
+        margin-right: 0px;
+    }
+    .slick-list.draggable {
+        max-width: 350px;
+
+    }
+    
+}
+/***********************************************************************************/
+.customers-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.customer-description {
+    max-width: 554px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.customer-description__title {
+    color: rgb(38, 39, 45);
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+    margin-top: 45px;
+    margin-bottom: 48px;
+}
+.customer-description__paragraph {
+    color: rgb(140, 143, 148);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.customer-description-stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 68px;
+}
+.customer-description-stars__item {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.customer-description-stars__item:hover {
+    
+}
+
+.customer-description-name{
+    color: rgb(38, 39, 45);
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 800px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+/*********************************** customers - END ********************************/
+
+
+
+
+
+/*******************************          MEDIA         **********************************/
+@media screen and (max-width: 1470px) {
+    .iphone-feature-container{
+        max-width: 1470px;
+        margin: 0 auto;
+    }
+    .iphone-feature-img{
+        margin-right: 0;
+    }
+    .iphone-feature-big-img {
+        margin-left: -40px;
+        margin-right: 0;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .iphone-feature-description {
+        margin-left: 5px;
+        margin-bottom: 191px;
+        margin-top: 35px;
+        padding-right: 10px;
+        text-align: left;
+        align-items: center;
+    }
+    .slick-slider{
+        max-width: 1470px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .iphone-feature-big-img {
+        margin-left: -40px;
+        margin-right: 0;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .iphone-feature-description {
+        margin-left: 0;
+        margin-bottom: 191px;
+        margin-top: 35px;
+        padding-right: 5px;
+        text-align: left;
+        align-items: center;
+    }
+    .iphone-feature-buttons {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .iphone-feature-button1 {
+        display: flex;
+        align-items: center;
+        padding: 14px 31px 15px 32px;
+        border-radius: 100px;
+        background-color: rgb(38, 125, 244);
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .iphone-feature-button1__text {
+        color: rgb(255, 255, 255);
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 400px;
+        margin-right: 46px;
+    }
+    .iphone-feature-button2 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 14px 71px 15px 71px;
+        border-radius: 21px;
+        border: 1px solid #26272d1a;
+        border-radius: 100px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 10px; 
+    }
+    .iphone-feature-button2__text {
+        color: rgb(38, 39, 45);
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1270px) {
+    .iphone-feature-container{
+        max-width: 1270px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .iphone-feature-img{
+        padding-left: 0;
+    }
+    .iphone-feature-big-img {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .iphone-feature-description {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .iphone-feature-text__title {
+        max-width: 1270px;
+        color: rgb(38, 39, 45);
+        font-family: "Varela Round", sans-serif;
+        font-size: 30px;
+        font-weight: 400px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .slick-slider{
+        max-width: 1270px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .slick-slider{
+        max-width: 660px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .slick-list.draggable {
+        padding: 0 160px;
+    }
+}
+@media screen and (max-width: 525px) {
+    .slick-slider{
+        max-width: 525px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .slick-slider{
+        max-width: 525px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width: 385px) {
+    .slick-slider{
+        max-width: 525px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media screen and (max-width: 345px) {
+    .slick-slider{
+        max-width: 525px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+
+@media screen and (max-width: 472px) {
+    .iphone-feature-container{
+        padding-top: 50px;
+    }
+    .iphone-feature-text__title {
+        margin-bottom: 15px;
+    }
+    .iphone-feature-text__paragraph {
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-bottom: 15px;
+    }
+    .iphone-feature-buttons {
+        margin-top: 10px;
+    }
+    .iphone-feature-button1 {
+        margin-bottom: 20px;
+    }
+    .iphone-feature-button2 {
+        margin-bottom: 10px; 
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .iphone-feature-container{
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .iphone-feature-img{
+        padding-left: 0;
+    }
+    .iphone-feature-big-img {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .iphone-feature-description {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 5px;
+        margin: 0 auto;
+    }
+    .iphone-feature-text__title {
+        max-width: 346px;
+        color: rgb(38, 39, 45);
+        font-family: "Varela Round", sans-serif;
+        font-size: 30px;
+        font-weight: 400px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .iphone-feature-text__paragraph {
+        max-width: 348px;
+        color: rgb(140, 143, 148);
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        font-weight: 400px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .iphone-feature-buttons {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .iphone-feature-button1 {
+        display: flex;
+        align-items: center;
+        padding: 14px 31px 15px 32px;
+        border-radius: 100px;
+        background-color: rgb(38, 125, 244);
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .iphone-feature-button1__text {
+        color: rgb(255, 255, 255);
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 400px;
+        margin-right: 46px;
+    }
+    .iphone-feature-button2 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 14px 71px 15px 71px;
+        border-radius: 21px;
+        border: 1px solid #26272d1a;
+        border-radius: 100px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 10px; 
+    }
+    .iphone-feature-button2__text {
+        color: rgb(38, 39, 45);
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:472px) {
+    .customers-container {
+        max-width: 472px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 35px;
+        padding-bottom: 5px;
+    }
+    .customer-description {
+        max-width: 472px;
+        text-align: center;
+        margin: 0 5px;
+    }
+    .customer-description__title {
+        color: rgb(38, 39, 45);
+        font-family: "Lato", sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .customer-description__paragraph {
+        color: rgb(140, 143, 148);
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 400px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .customer-description-stars {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .customer-description-name{
+        color: rgb(38, 39, 45);
+        font-family: "Lato", sans-serif;
+        font-size: 10px;
+        font-weight: 800px;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .customers-container {
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin-bottom: 0;
+    }
+    .customer-description {
+            max-width: 350px;
+            text-align: center;
+            margin: 0 5px;
+    }
+    .customer-description__title {
+            color: rgb(38, 39, 45);
+            font-family: "Lato", sans-serif;
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 30px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+    }
+    .customer-description__paragraph {
+            color: rgb(140, 143, 148);
+            font-family: "Lato", sans-serif;
+            font-size: 16px;
+            font-weight: 400px;
+            line-height: 20px;
+            margin-bottom: 15px;
+    }
+    .customer-description-stars {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+    }
+    .customer-description-name{
+            color: rgb(38, 39, 45);
+            font-family: "Lato", sans-serif;
+            font-size: 10px;
+            font-weight: 800px;
+            line-height: 20px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+    }
+}
+
