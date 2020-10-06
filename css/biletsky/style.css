@@ -140,7 +140,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     
     min-width: 0;
 
-    background-color: rgb(162, 72, 72);
+    /* background-color: rgb(162, 72, 72); */
 }
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
@@ -223,13 +223,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 @media screen and (max-width: 660px) {
 
     .slick-slider {
-        background-color: rgb(198, 202, 81);
+        /* background-color: rgb(198, 202, 81); */
         max-width: 350px;
         padding-left: 100px;
         padding-right: 100px;
     }
     .draggable {
-        background-color: rgb(8, 5, 5);
+        /* background-color: rgb(8, 5, 5); */
     }
     .slick-arrow.slick-prev {
         margin-left: 0px;
