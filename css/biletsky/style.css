@@ -134,11 +134,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 /***********************************************************************************/
-/*
-    min-width: 0;
-*/
+/*    min-width: 0;*/
+.slider {}
+
+
 /* Слайдер */
-.slick-slider{}
+.slick-slider{
+    position: relative;
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+    padding-left: 450px;
+    padding-right: 450px;
+    text-align: center;
+    min-width: 0;
+}
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
 /* Слайдер с точками */
@@ -150,11 +160,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /* Лента слайдов */
 .slick-track{
     display: flex;
+    align-items: center;
 }
 /* Слайд */
-.slick-slide{}
+.slick-slide{
+    opacity: 0;
+}
 /* Слайд активный (показывается) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active{
+    opacity: 1;
+}
 /* Слайд основной */
 .slick-slide.slick-current{}
 /* Слайд по центру */
@@ -162,34 +177,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /* Клонированный слайд */
 .slick-slide.slick-cloned{}
 /* Стрелка */
-.slick-arrow{}
-/* Стрелка влево */
-.slick-arrow.slick-prev{}
-/* Стрелка вправо */
-.slick-arrow.slick-next{}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{}
-/* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
-/* Активная точка */
-.slick-dots li.slick-active{
-
-}
-/* Элемент точки */
-.slick-dots li button{}
-
-
-.slider {
-    position: relative;
-    max-width: 1600px;
-    margin: auto;
-    padding-left: 500px;
-    padding-right: 500px;
-    text-align: center;
-}
-
-.slider .slick-arrow {
+.slick-arrow{
     position: absolute;
     top: 50%;
     margin-top: -21px;
@@ -198,23 +186,52 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     width: 23px;
     height: 42px;
 }
-.slider .slick-arrow.slick-prev {
+
+/* Стрелка влево */
+.slick-arrow.slick-prev{
     left: 0;
     background: url('../../img/customers/Arrow_L.svg') 0 0 / 100% no-repeat;
-    margin-left: 236px;
-
+    margin-left: 220px;
 }
-.slider .slick-arrow.slick-next {
+/* Стрелка вправо */
+.slick-arrow.slick-next{
     right: 0;
     background: url('../../img/customers/Arrow_R.svg') 0 0 / 100% no-repeat;
-    margin-right: 236px;
+    margin-right: 220px;
 }
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+
+.slider__item {}
 .slider__item img{
     max-width: 90px;
+    padding: 0;
 }
 .slick-center img{
     max-width: 130px;
-    height: 130px;
+    max-height: 130px;
+}
+
+@media screen and (max-width: 660px) {
+
+    .slick-slider {
+        background-color: rgb(198, 202, 81);
+    }
+
+    .slick-arrow.slick-prev {
+        margin-left: 30px;
+    }
+    .slick-arrow.slick-next {
+        margin-right: 30px;
+    }
 }
 /***********************************************************************************/
 
@@ -269,7 +286,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 
 
-/**************          MEDIA         ***************/
+/*******************************          MEDIA         **********************************/
 @media screen and (max-width: 1470px) {
     .iphone-feature-container{
         max-width: 1470px;
@@ -292,6 +309,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding-right: 10px;
         text-align: left;
         align-items: center;
+    }
+    .slick-slider{
+        max-width: 1470px;
+        padding-left: 350px;
+        padding-right: 350px;
     }
 }
 
@@ -391,7 +413,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         line-height: 20px;
         margin-bottom: 20px;
     }
+    .slick-slider{
+        max-width: 1270px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
 }
+
+
 
 @media screen and (max-width: 472px) {
     .iphone-feature-container{
