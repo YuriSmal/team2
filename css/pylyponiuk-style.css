@@ -402,3 +402,9 @@
 		width: 300px;
 	}
 }
+
+@media screen and ( min-width: 1393px ) {
+	.plan-right-block ul{
+		padding-bottom: 75px;
+	}
+}
