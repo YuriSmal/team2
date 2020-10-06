@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&amp;display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/pylyponiuk-style.css">
-</head>
-<body>
-	
-	<header></header>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Providence</title>
+    <link rel="stylesheet" href="./css/biletsky.css">
+  	<link rel="stylesheet" href="css/pylyponiuk-style.css">
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
-	<main>
-		<section class="features"></section>
-		<section class="iphone-feature"></section>
-		<section class="map-feature">
+</head>
+  
+<body>
+    <header></header>
+    <main>
+        <section class="features"></section>
+
+
+        <section class="iphone-feature">
+                <div class="iphone-feature-container">
+                    <div class="iphone-feature-img">
+                         <img class="iphone-feature-big-img" src="./img/iphone-feature/iphone-feature-big-img.png" alt="Big Iphone">
+                    </div>
+                    <div class="iphone-feature-description">
+                        <div class="iphone-feature-text">
+                            <h2 class="iphone-feature-text__title">Your day is protected</h2>
+                            <p class="iphone-feature-text__paragraph">There have not been any since we have lived here, said my mother.</p>
+                            <p class="iphone-feature-text__paragraph">We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests were very old ones, and the birds have deserted them a long while.</p>
+                        </div>
+                        <div class="iphone-feature-buttons">
+                            <button class="iphone-feature-button1" > 
+                                <div class="iphone-feature-button1__text">Try to hack us</div>
+                                <span class="iphone-feature-button1__icon">
+                                    <img src="./img/iphone-feature/iphone-feature-button__icon.svg" alt="Icon Right Arrow" >
+                                </span>
+                            </button>
+                            <button class="iphone-feature-button2" >
+                                <div class="iphone-feature-button2__text">Learn more</div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+      
+      <section class="map-feature">
 			<div class="map-feature-left-block">
 				<h1>We are almost everywhere</h1>
 				<div class="map-feature-text-block">
@@ -32,8 +61,8 @@
 				<img src="img/map-feature/map-featere-img.png" alt="Map">
 			</div>    
 		</section>
-		<section class="iphone-screens"></section>
-		<section class="ready-to-buy">
+    <section class="iphone-screens"></section>
+      <section class="ready-to-buy">
 			<h3>NewProvidence</h3>
 			<h2>Get it to your smartphone</h2>
 			<form for="mail-block" class="ready-to-buy-form">
@@ -46,8 +75,63 @@
 				<p>App Store</p>
 			</a>
 		</section>
-		<section class="customers"></section>
-		<section class="plan">
+      
+       <section class="customers">
+
+            <div class="slider center">
+                <div class="slider__item">
+                    <img src="img/customers/001.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img/customers/002.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img/customers/003.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img/customers/004.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img/customers/005.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img/customers/006.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="img/customers/007.jpg" alt="">
+                </div>
+            </div>
+
+
+            <div class="customers-container">
+                
+                <div class="customer-description">
+                    <h3 class="customer-description__title">New Providence is the great UI kit </h3>
+                    <p class="customer-description__paragraph">“Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.”</p>
+                    <ul class="customer-description-stars">
+                        <li>
+                            <a href="#" class="customer-description-stars__item"><img src="./img/customers/customer-description-stars__item.svg" alt="One Star"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="customer-description-stars__item"><img src="./img/customers/customer-description-stars__item.svg" alt="Two Star"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="customer-description-stars__item"><img src="./img/customers/customer-description-stars__item.svg" alt="Three Star"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="customer-description-stars__item"><img src="./img/customers/customer-description-stars__item.svg" alt="Four Star"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="customer-description-stars__item"><img src="./img/customers/customer-description-stars__item.svg" alt="Five Star"></a>
+                        </li>
+                    </ul>
+                    <div class="customer-description-name">Cameron Dowman</div>
+                </div>
+
+            </div>
+        </section>
+  
+      <section class="plan">
 			<div class="plan-wrap">
 				<div class="plan-sub-block">
 					<div class="plan-left">
@@ -86,10 +170,12 @@
 				</div>
 			</div>
 		</section>
-		<section class="subscribe"></section>
-	</main>
-
-	<footer></footer>
-	<script type="text/javascript" src="main.js"></script>
-</body>
+       
+    </main>
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/customers/slider/slick.min.js"></script>
+    <script src="./js/customers/slider/script.js"></script>
+   <script type="text/javascript" src="main.js"></script>
+  </body>
 </html>
