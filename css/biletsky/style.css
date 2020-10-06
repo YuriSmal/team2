@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{
-    opacity: 0.3;
+    opacity: 0.2;
 }
 /* Слайд основной */
 .slick-slide.slick-current{
@@ -253,7 +253,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 100px;
 }
 .customer-description {
