@@ -125,7 +125,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 /***********************************************************************************/
 /*    min-width: 0;*/
-.slider {}
+.slider {
+    /* cursor: pointer; */
+    cursor: grabbing;
+}
 
 
 /* Слайдер */
@@ -161,7 +164,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{
-    opacity: 0.2;
+    opacity: 0.15;
 }
 /* Слайд основной */
 .slick-slide.slick-current{
