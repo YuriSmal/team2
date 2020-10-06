@@ -114,7 +114,7 @@
 	background: #888;
 }
 .ready-to-buy .ready-to-buy-form:after{
-	content: url('img/ready-to-buy/ready-to-buy-arrow.png');
+	content: url('../img/ready-to-buy/ready-to-buy-arrow.png');
 	position: absolute;
 	top: 53%;
 	transform: translateY(-50%);
@@ -150,7 +150,7 @@
 	background: #323232;
 }
 .ready-to-buy .ready-to-buy-apple-btn:before{
-	content:url('img/ready-to-buy/ready-to-buy-apple-logo.png');
+	content:url('../img/ready-to-buy/ready-to-buy-apple-logo.png');
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -290,7 +290,7 @@
 	position: relative;
 }
 .plan-right-block li span:before{
-	content: url('img/plan/plan-checked.png');
+	content: url('../img/plan/plan-checked.png');
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
