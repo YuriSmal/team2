@@ -188,13 +188,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /* Стрелка влево */
 .slick-arrow.slick-prev{
     left: 0;
-    background: url('../../img/customers/Arrow_L.svg') 0 0 / 100% no-repeat;
+    background: url('../img/customers/Arrow_L.svg') 0 0 / 100% no-repeat;
     margin-left: 220px;
 }
 /* Стрелка вправо */
 .slick-arrow.slick-next{
     right: 0;
-    background: url('../../img/customers/Arrow_R.svg') 0 0 / 100% no-repeat;
+    background: url('../img/customers/Arrow_R.svg') 0 0 / 100% no-repeat;
     margin-right: 220px;
 }
 /* Стрелка не активная */
