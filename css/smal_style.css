@@ -24,7 +24,6 @@ a {
 
 header {
     padding-top: 60px;
-    /* background: url('..//img/header/header-bg.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,6 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 
 .header-menu-container {
@@ -51,7 +51,8 @@ header {
     font-size: 22px;
 }
 
-strong {
+.header-strong {
+    font-size: 20px;
     font-weight: 900;
 }
 
@@ -84,7 +85,7 @@ strong {
 
 .header-getapp-button:hover {
     background: #fff;
-    color: #267df4;
+    color: #267df4 !important;
     border: 1px solid #267df4;
 }
 
@@ -130,6 +131,7 @@ strong {
     align-items: center;
     border-radius: 20px;
     font-family:  'Lato', sans-serif;
+    background: #eef0f3;
 }
 
 .header-watch-button svg {
@@ -141,6 +143,8 @@ strong {
     color: #fff;
     transition: 0.3s;
 }
+
+
 
 .header-watch-button:hover svg {
     fill: #fff;
@@ -170,7 +174,7 @@ strong {
         width: 36px;
         height: 36px;
         cursor: pointer;
-        z-index: 1;
+        z-index: 3;
     }
     
     .menu__btn > span,
