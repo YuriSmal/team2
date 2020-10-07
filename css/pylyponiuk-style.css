@@ -180,7 +180,7 @@
 }
 .plan .plan-left{
 	width: 40%;
-	margin-right: 10%;
+	margin-right: 8%;
 }
 .plan .plan-left h1{
 	padding-top: 40px;
@@ -342,6 +342,7 @@
 @media screen and ( max-width: 1250px ){
 	.plan .plan-left{
 		padding-left: 20px;
+		margin-right: 3%;
 	}
 	.map-feature .map-feature-left-block{
    	padding-left: 7%; 
