@@ -13,7 +13,6 @@ planTumblersBtn1.onclick = (e) => {
 
 	planStarterCard.classList.add('plan-right-block-active');
 	planTumblersBtn1.classList.add('plan-tumblers-active');
-	console.log(1)
 }
 planTumblersBtn2.onclick = (e) => {
 	e.preventDefault();
@@ -22,5 +21,4 @@ planTumblersBtn2.onclick = (e) => {
 
 	planProCard.classList.add('plan-right-block-active');
 	planTumblersBtn2.classList.add('plan-tumblers-active');
-	console.log(e.target)
 }

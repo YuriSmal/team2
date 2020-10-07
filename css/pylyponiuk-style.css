@@ -11,14 +11,16 @@
 .map-feature{
 	display: flex;
 	box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 	background: #ffffff;
+  padding: 70px 0;
 }
 .map-feature .map-feature-left-block{
-	padding-left: 7%; 
-	width: 35%;
+  max-width: 500px;
 }
 .map-feature .map-feature-right-block{
-	width: 65%;
+	max-width: 650px;
 }
 .map-feature .map-feature-left-block h1{
 	font-family: "Varela Round", sans-serif;
@@ -32,6 +34,7 @@
 	font-family: "Lato", sans-serif;
 	color: #8c8f94;
 	font-size: 20px;
+	line-height: 1.2em;
 }
 .map-feature-text-block p:first-child{
 	margin-bottom: 30px;
@@ -42,7 +45,7 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #26272d;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 .map-feature .map-feature-right-block img{
 	width: 100%;
@@ -57,13 +60,16 @@
 	flex-flow: column;
 	background: #f5f5f8;
 	padding: 100px 0;
+	max-width: 1160px;
+	margin: auto;
 }
-.ready-to-buy h3{
-	font-size: 12px;
-	color: #3a3d4b;
-	font-family: "Lato", sans-serif;
-	font-weight: 900;
-	margin-bottom: 40px;
+.ready-to-buy h3 {
+  font-size: 12px;
+  color: #aeaeb4;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 .ready-to-buy h2{
 	font-size: 42px;
@@ -169,12 +175,12 @@
 	background: #f4f4f5;
 }
 .plan .plan-wrap{
-	width: 90%;
-	margin: 0 auto;
+  margin: 0 auto;
+  max-width: 1160px;
 }
 .plan .plan-left{
 	width: 40%;
-	margin-right: 10%;
+	margin-right: 8%;
 }
 .plan .plan-left h1{
 	padding-top: 40px;
@@ -185,6 +191,7 @@
 .plan .plan-left p{
 	font-size: 20px;
 	color: #8c8f94;
+	line-height: 1.2em;
 }
 .plan .plan-left .plan-left-p-style{
 	font-size: 12px;
@@ -332,18 +339,32 @@
 }
 
 
-
+@media screen and ( max-width: 1250px ){
+	.plan .plan-left{
+		padding-left: 20px;
+		margin-right: 3%;
+	}
+	.map-feature .map-feature-left-block{
+   	padding-left: 7%; 
+	}
+}
 
 @media screen and ( max-width: 1050px ) {
 	.plan-sub-block{
 		display: block;
 	}
 	.plan .plan-left{
-		width: 100%;
-		margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 	}
 	.plan .plan-right{
-		width: 100%;
+    width: 95%;
+    margin: auto;
 	}
 	.plan .plan-right > *{
 		width: 42%;
@@ -360,11 +381,17 @@
 		display: block;
 	}
 	.map-feature .map-feature-left-block{
-		width: 88%;
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: column;
 		margin-bottom: 20px;
+		text-align: center;
+		padding: 0 20px;
 	}
 	.map-feature .map-feature-right-block{
-		width: 100%;
+		max-width: 100%;
 	}
 }
 @media screen and ( max-width: 700px ) {
