@@ -270,10 +270,14 @@ strong {
 
 .features {
     padding: 125px 0;
+    padding-bottom: 100px;
 }
 .features-wrapper {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgba(153, 155, 160, 0.582);
+    padding-bottom: 126px;
+
 }
 
 .features-col-6-12 {
