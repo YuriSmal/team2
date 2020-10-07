@@ -4,7 +4,6 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
-    background-color: #F5F5F8;
     margin: 0;
     padding: 0;
 }
@@ -75,6 +74,8 @@ body {
 .subscribe {
     max-height: 350px;
     max-width: 100%;
+    background: #fff;
+    padding-top: 90px;
 }
 
 .subscribe-container {
@@ -111,12 +112,15 @@ body {
 
 
 .subscribe-email {
-    background-color: #F5F5F8;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 0;
     margin-left: 30px;
     outline:none;
+}
+
+.subscribe-email:focus {
+    outline: #267DF4;
 }
 
 .subscribe-container-text {
@@ -131,23 +135,23 @@ body {
 
 .footer {
     max-height: 510px;
-    max-width: 1600px;
     overflow-x: hidden;
-    margin: auto;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 25px;
 }
 
 .footer-containetr {
-    margin-top: 90px;
-    max-width: 100%;
-    margin-bottom: 70px;
+    margin: 0 auto;
+    padding: 90px 0 70px 0;
+    max-width: 1160px;
     display: flex;
     justify-content: space-between;
+    border-top: 0.3px solid #f4f4f4;
 }
 
 .footer-social {
     max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .social-text {
@@ -155,7 +159,9 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: #8C8F94;
-    margin-bottom: 32px;
+    margin: 35px 0 32px 0;
+    
+    line-height: 25px;
 }
 
 .footer-app-store {
@@ -164,7 +170,13 @@ body {
 }
 
 .social-logos {
+    display: flex;
+    align-items: flex-end;
     cursor: pointer;
+}
+
+.social-logos a:hover {
+    color: #267df4;
 }
 
 .social-logo {
@@ -175,11 +187,14 @@ body {
     margin: 0;
     cursor: pointer;
     color: #26272D;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 .footer-about-us {
     display: flex;
-    margin-right: auto;
 }
 
 .learn-more {
@@ -209,25 +224,40 @@ body {
     text-decoration: none;
     color: #8C8F94;
     cursor: pointer;
-    padding: 5px;
+    padding-top: 16px;
 }
 
 .footer-craft-work {
+    max-width: 1160px;
     display: flex;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
+    margin: 0 auto;
+    border-top: 0.3px solid #f4f4f4;
 }
 
 .craft-work-logo {
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #26272d;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 24px;
+    font-family: "Lato", sans-serif;
 }
 
 .footer-craft-work-text {
+    font-family: 'Lato', sans-serif;
+    color: #8c8f94;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.footer-craft-work-text a {
+    color: blue;
+    text-decoration: underline;
 }
 
 .support-link-box {
@@ -247,12 +277,14 @@ body {
     flex-direction: column;
 }
 
-.footer-craft-work-box {
-    margin-left: auto;
-}
 .craft-work-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 9px;
     margin-right: 10px;
     align-self: center;
+    padding-top: 7px;
 }
 
 .footer-title:hover {
@@ -267,11 +299,13 @@ body {
     }
     .footer-containetr {
         flex-direction: column;
+        align-items: center;
     }
     .footer-about-us {
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 25px;
     }
     .aboutus-link-box {
         display: none;
@@ -291,6 +325,7 @@ body {
     }
     .footer-craft-work {
        flex-direction: column;
+       padding-top: 30px;
     }
     .footer-craft-work-box {
         margin-left: auto;
@@ -300,7 +335,7 @@ body {
         align-self: center;
     }
     .subscribe-container-text {
-        margin-bottom: 0;
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 513px) {

@@ -54,14 +54,17 @@
 
 
 .ready-to-buy{
+	background: #f5f5f8;
+}
+.ready-to-buy-sup-block{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: column;
-	background: #f5f5f8;
 	padding: 100px 0;
 	max-width: 1160px;
 	margin: auto;
+	
 }
 .ready-to-buy h3 {
   font-size: 12px;

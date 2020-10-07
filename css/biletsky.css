@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 .iphone-feature-img{}
 .iphone-feature-big-img {
-    margin-left: -130px;
+    /*margin-left: -130px;*/
     margin-right: 50px;
     max-width: 100%;
     height: auto;
