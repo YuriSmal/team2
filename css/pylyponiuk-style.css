@@ -34,6 +34,7 @@
 	font-family: "Lato", sans-serif;
 	color: #8c8f94;
 	font-size: 20px;
+	line-height: 1.2em;
 }
 .map-feature-text-block p:first-child{
 	margin-bottom: 30px;
@@ -44,7 +45,7 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #26272d;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 .map-feature .map-feature-right-block img{
 	width: 100%;
@@ -190,6 +191,7 @@
 .plan .plan-left p{
 	font-size: 20px;
 	color: #8c8f94;
+	line-height: 1.2em;
 }
 .plan .plan-left .plan-left-p-style{
 	font-size: 12px;
