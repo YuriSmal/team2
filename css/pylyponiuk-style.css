@@ -233,12 +233,12 @@
 	transition: .5s;
 }
 .plan-tumblers a:hover{
-	box-shadow: 0px 10px 20px 1px #000;
+	box-shadow: 0px 5px 5px 1px #000;
 }
 .plan .plan-tumblers-active{
 	background: #fff;
 	color: #000;
-	box-shadow: 0px 10px 20px 1px #000;
+	box-shadow: 0px 5px 5px 1px #000;
 }
 .plan-sub-block{
 	display: flex;
@@ -254,14 +254,29 @@
 	border-radius: 20px;
 }
 .plan-right-block{
+  transition: .5s;
+  border-radius: 20px;
+  position: relative;
+  min-height: 450px;
+  width: 340px;
+}
+.plan-right-block-sub{
   display: flex;
   flex-flow: column;
   align-items: center;
   text-align: center;
-  position: relative;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
   padding: 0 30px;
-  border-radius: 20px;
-  transition: .5s;
+}
+.plan-right-block-sub1{
+	z-index: 5
+}
+.plan-right-block-sub2{
+	z-index: 0;
+	opacity: 0;
 }
 .plan-right-block h1{
 	font-size: 32px;
@@ -308,7 +323,7 @@
 }
 .plan-right-block .plan-right-block-btn{
 	position: absolute;
-	bottom: 30px;
+	bottom: -60px;
 	font-size: 16px;
 	color: #267df4;
 	text-align: center;
@@ -364,6 +379,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+	}
+	.plan-right-block .plan-right-block-btn{
+		bottom: 30px;
 	}
 	.plan .plan-right{
     width: 95%;
