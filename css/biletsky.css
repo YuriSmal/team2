@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     flex-direction: row;
     align-items: center;
     overflow: hidden;
-    padding-top: 86px;
+    padding-top: 30px;
     padding-bottom: 42px;
 }
 .iphone-feature-img{}
