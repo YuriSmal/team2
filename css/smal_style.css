@@ -23,20 +23,18 @@ a {
 /* header */ 
 
 header {
+    height: 1000px;
     padding-top: 60px;
+    background: url('..//img/header/header-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
-
-
 
 .header-menu-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
 }
 
 .header-menu-container {
@@ -51,8 +49,8 @@ header {
     font-size: 22px;
 }
 
-.header-strong {
-    font-size: 20px;
+strong {
+    font-size: 21px;
     font-weight: 900;
 }
 
@@ -61,7 +59,7 @@ header {
 }
 
 .header-menu-container a:hover {
-    color: #9f9fa1;
+    color: #267df4;
     transition: 0.3s;
 
 }
@@ -85,7 +83,7 @@ header {
 
 .header-getapp-button:hover {
     background: #fff;
-    color: #267df4 !important;
+    color: #267df4;
     border: 1px solid #267df4;
 }
 
@@ -115,14 +113,11 @@ header {
     margin-top: 40px;
     font-family:  'Lato', sans-serif;
     font-size: 20px;
-    max-width: 785px;
-    line-height: 26px;
     color: #8c8f94;
 }
 
 .header-watch-button {
     margin-top: 62px;
-    margin-bottom: 515px;
     border: 1px solid #dadcde;
     width: 205px;
     height: 50px;
@@ -131,7 +126,6 @@ header {
     align-items: center;
     border-radius: 20px;
     font-family:  'Lato', sans-serif;
-    background: #eef0f3;
 }
 
 .header-watch-button svg {
@@ -144,18 +138,9 @@ header {
     transition: 0.3s;
 }
 
-
-
 .header-watch-button:hover svg {
     fill: #fff;
     filter: invert(1) sepia(1);
-}
-
-.header-phone {
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    margin: 0 auto;
 }
 
 /* burger menu */
@@ -174,7 +159,7 @@ header {
         width: 36px;
         height: 36px;
         cursor: pointer;
-        z-index: 3;
+        z-index: 1;
     }
     
     .menu__btn > span,
@@ -274,14 +259,10 @@ header {
 
 .features {
     padding: 125px 0;
-    padding-bottom: 100px;
 }
 .features-wrapper {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(153, 155, 160, 0.582);
-    padding-bottom: 126px;
-
 }
 
 .features-col-6-12 {

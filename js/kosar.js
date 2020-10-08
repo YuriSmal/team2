@@ -25,37 +25,40 @@ function showThree() {
     }
 }
 
-
-// $(document).ready(function() {
-//     $('.slider').slick();
-// });
-// $('.lazy').slick({
-//     lazyLoad: 'ondemand',
-//     slidesToShow: 3,
-//     slidesToScroll: 1
-//   });
 $('.center').slick({
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
+  centerMode: true,
+  // centerPadding: '60px',
+  slidesToShow: 1,
+  initialSlide: 1,
+  // responsive: [
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         arrows: false,
+  //         centerMode: true,
+  //         centerPadding: '40px',
+  //         slidesToShow: 3
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         arrows: false,
+  //         centerMode: true,
+  //         centerPadding: '40px',
+  //         slidesToShow: 1
+  //       }
+  //     }
+  //   ]
+  responsive: [
+          {
+            breakpoint: 940,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              // centerPadding: '40px',
+              slidesToShow: 1
+            }
+          },
+      ]
+});
