@@ -87,13 +87,11 @@
 }
 .slider .slick-arrow.slick-prev{
 	left: 0;
-	background: url('../img/left.png') 0 0 / 100% no-repeat;
 	outline: 0;
 	cursor: grab;
 }
 .slider .slick-arrow.slick-next{
 	right: 0;
-	background: url('../img/right.png') 0 0 / 100% no-repeat;
 	outline: 0;
 	cursor: grab;
 }

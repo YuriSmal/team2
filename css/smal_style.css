@@ -279,7 +279,7 @@ header {
 .features-wrapper {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(153, 155, 160, 0.582);
+    border-bottom: 0.3px solid #f4f4f4;
     padding-bottom: 126px;
 
 }
